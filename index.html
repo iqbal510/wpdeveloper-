@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="CodeBeehive" />
+		<meta name="description" content="Put the description here" />
+		<meta name="keywords" content="HTML,CSS,JavaScript" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Title Here</title>
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="assets/css/font-awesome/css/all.font-awesome.min.css" />
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" />
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.min.css" />
+	</head>
+	<body>
+		<section class="sidebar">
+			<a href="index.html" class="sidebar__logo">
+				<img src="assets/img/Easy.jobs_logo@2x.png" alt="logo.png" />
+			</a>
+			<div class="sidebar__menu">
+				<ul>
+					<li class="sidebar__menu__item sidebar__menu__item--active">
+						<a href="" class="Sidebar__menu__link"><i class="fas fa-home"></i>Dashboard</a>
+					</li>
+					<li class="sidebar__menu__item sidebar__menu__item--has-dropdown">
+						<a href="#homeSubmenu" class="dropdown-toggle Sidebar__menu__link" data-toggle="collapse" aria-expanded="false"><i class="fas fa-briefcase"></i>Jobs</a>
+						<ul class="collapse list-unstyled sidebar__dropdown__menu" id="homeSubmenu">
+							<li class="sidebar__dropdown__item"><a href="">Jobs</a></li>
+							<li class="sidebar__dropdown__item"><a href="">Create a new Job</a></li>
+						</ul>
+					</li>
+					<li class="sidebar__menu__item">
+						<a href="" class="Sidebar__menu__link"><i class="fas fa-user-friends"></i>Candidates</a>
+					</li>
+					<li class="sidebar__menu__item">
+						<a href="JavaScript:Void(0);" class="Sidebar__menu__link"><i class="fas fa-cog"></i>Settings</a>
+					</li>
+					<li class="sidebar__menu__item">
+						<a href="" class="Sidebar__menu__link"><i class="fas fa-bell"></i>Notification</a>
+					</li>
+					<li class="sidebar__menu__item">
+						<a href="" class="Sidebar__menu__link"><i class="fas fa-plus"></i>New Company</a>
+					</li>
+					<li class="sidebar__menu__item">
+						<a href="" class="Sidebar__menu__link"><i class="fas fa-user"></i>My Account</a>
+					</li>
+				</ul>
+				<a href="#" class="sidebar__logout"><i class="fas fa-sign-out-alt"></i>Logout</a>
+			</div>
+		</section>
+		<main class="main-body">
+			<header class="header">
+				<div class="header--left">
+					<a href="" class="button-info">View Company Page</a>
+				</div>
+				<div class="dropdown header--right">
+					<button class="button-secondary dropdown-toggle" data-toggle="dropdown">
+						<span><i class="fas fa-flag-usa"></i> English</span>
+						 <div class="dropdown-menu">
+						    <a class="dropdown-item" href="#">Bangla</a>
+						    <a class="dropdown-item" href="#">English</a>
+						 </div>
+					</button>
+					<button class="button-secondary header--notification">
+						<i class="fas fa-bell"></i>
+					</button>
+					<button class="button-secondary has-dropdown no-bg dropdown-toggle">
+						<img src="assets/img/wpdeveloper-logo.png" alt="" />
+						<ul>
+							<li><a href="">Profile</a></li>
+							<li><a href="">Settings</a></li>
+						</ul>
+					</button>
+				</div>
+			</header>
+			<section class="company-info mt-5">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="company-info__single company-info__single--background-pink">
+							<i class="fas fa-user-friends"></i>
+							<div>
+								<h5>347</h5>
+								<p>Active Candidates</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="company-info__single company-info__single--background-violate">
+							<i class="fas fa-envelope"></i>
+							<div>
+								<h5>27</h5>
+								<p>Published Jobs</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="company-info__single company-info__single--background-brown">
+							<i class="far fa-envelope"></i>
+							<div>
+								<h5>14</h5>
+								<p>Draft Jobs</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="company-info__single company-info__single--background-info">
+							<i class="fas fa-users"></i>
+							<div>
+								<h5>7</h5>
+								<p>Team Members</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="recent-Applications mt-5">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Recent Applications</h4>
+					</div>
+				</div>
+				<div class="recent-Applications__candidates mt-3">
+					<div class="single-candidates">
+						<div class="star-rate"><i class="fas fa-star"></i>4.7</div>
+						<img src="assets/img/logo2.png" alt="Candidate.png" />
+						<h6>David McDon</h6>
+						<p>UI/UX Designer</p>
+						<a href="#" class="Single-candidates__details">View Details</a>
+					</div>
+					<div class="single-candidates">
+						<div class="star-rate"><i class="fas fa-star"></i>5</div>
+						<img src="assets/img/logo1.png" alt="Candidate.png" />
+						<h6>David McDon</h6>
+						<p>Digital Marketer</p>
+						<a href="#" class="Single-candidates__details">View Details</a>
+					</div>
+					<div class="single-candidates">
+						<div class="star-rate"><i class="fas fa-star"></i>4</div>
+						<img src="assets/img/logo3.png" alt="Candidate.png" />
+						<h6>David McDon</h6>
+						<p>Technical Supporter</p>
+						<a href="" class="Single-candidates__details">View Details</a>
+					</div>
+					<div class="single-candidates">
+						<div class="star-rate disable"><i class="fas fa-star"></i></div>
+						<img src="assets/img/logo2.png" alt="Candidate.png" />
+						<h6>David McDon</h6>
+						<p>Front End Developer</p>
+						<a href="#" class="Single-candidates__details">View Details</a>
+					</div>
+					<div class="single-candidates">
+						<div class="star-rate"><i class="fas fa-star"></i>4.8</div>
+						<img src="assets/img/logo.png" alt="Candidate.png" />
+						<h6>David McDon</h6>
+						<p>UI/UX Designer</p>
+						<a href="#" class="Single-candidates__details">View Details</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="recent-Jobs mt-5">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Recent Jobs</h4>
+					</div>
+				</div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Job Title</th>
+							<th>Applicants</th>
+							<th>Status</th>
+							<th>Deadline</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>HR Executive (Mid-Level)</td>
+							<td class="Applicants__list">
+								<div class="applicants__img">
+									<img src="assets/img/logo.png" alt="" class="Applicants" />
+									<img src="assets/img/logo1.png" alt="" class="Applicants" />
+									<img src="assets/img/logo2.png" alt="" class="Applicants" />
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<p class="Applicants">10</p>
+								</div>
+								<div class="mini-mode">14 Applicants</div>
+							</td>
+							<td>
+								<div class="button--light-success">Ongoing</div>
+							</td>
+							<td>
+								<div class="deatline-info">
+									<p>
+										15 February <br />
+										<span class="mini-mode">12 days left</span>
+									</p>
+									<div class="progressbar">
+										<div class="progresses" data-width="70%"></div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<a href="#" class="button--light-success rounded"><i class="far fa-eye"></i></a>
+								<a href="#" class="button--light-info rounded"><i class="far fa-file-alt"></i></a>
+								<a href="#" class="button--light-primary rounded"><i class="fas fa-share-alt"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td>WordPress Developer (Mid-Level)</td>
+							<td class="Applicants__list">
+								<div class="applicants__img">
+									<img src="assets/img/logo2.png" alt="" class="Applicants" />
+									<img src="assets/img/logo.png" alt="" class="Applicants" />
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<img src="assets/img/logo1.png" alt="" class="Applicants" />
+									<p class="Applicants">9</p>
+								</div>
+								<div class="mini-mode">12 Applicants</div>
+							</td>
+							<td>
+								<div class="button--light-success">Ongoing</div>
+							</td>
+							<td>
+								<div class="deatline-info">
+									<p>
+										15 February <br />
+										<span class="mini-mode">12 days left</span>
+									</p>
+									<div class="progressbar">
+										<div class="progresses" data-width="70%"></div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<a href="" class="button--light-success rounded"><i class="far fa-eye"></i></a>
+								<a href="" class="button--light-info rounded"><i class="far fa-file-alt"></i></a>
+								<a href="" class="button--light-primary rounded"><i class="fas fa-share-alt"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td>Technical Support</td>
+							<td class="Applicants__list">
+								<div class="applicants__img">
+									<img src="assets/img/logo.png" alt="" class="Applicants" />
+									<img src="assets/img/logo1.png" alt="" class="Applicants" />
+									<img src="assets/img/logo2.png" alt="" class="Applicants" />
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<p class="Applicants">10</p>
+								</div>
+								<div class="mini-mode">14 Applicants</div>
+							</td>
+							<td>
+								<div class="button--light-success">Ongoing</div>
+							</td>
+							<td>
+								<div class="deatline-info">
+									<p>
+										15 February <br />
+										<span class="mini-mode">12 days left</span>
+									</p>
+									<div class="progressbar">
+										<div style="background-color: orange;" class="progresses" data-width="70%"></div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<a href="" class="button--light-success rounded"><i class="far fa-eye"></i></a>
+								<a href="" class="button--light-info rounded"><i class="far fa-file-alt"></i></a>
+								<a href="" class="button--light-primary rounded"><i class="fas fa-share-alt"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td>UX/UI Designer</td>
+							<td class="Applicants__list">
+								<div class="applicants__img">
+									<img src="assets/img/logo.png" alt="" class="Applicants" />
+									<img src="assets/img/logo1.png" alt="" class="Applicants" />
+									<img src="assets/img/logo2.png" alt="" class="Applicants" />
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<p class="Applicants">10</p>
+								</div>
+								<div class="mini-mode">14 Applicants</div>
+							</td>
+							<td>
+								<div class="button--light-brown">Expored</div>
+							</td>
+							<td>
+								<div class="deatline-info">
+									<p>
+										15 February <br />
+										<span class="mini-mode">12 days left</span>
+									</p>
+									<div class="progressbar">
+										<div style="background-color: red;" class="progresses" data-width="70%"></div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<a href="" class="button--light-success rounded"><i class="far fa-eye"></i></a>
+								<a href="" class="button--light-info rounded"><i class="far fa-file-alt"></i></a>
+								<a href="" class="button--light-primary rounded"><i class="fas fa-share-alt"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td>UX/UI Designer</td>
+							<td class="Applicants__list">
+								<div class="applicants__img">
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<img src="assets/img/logo2.png" alt="" class="Applicants" />
+									<img src="assets/img/logo3.png" alt="" class="Applicants" />
+									<img src="assets/img/logo.png" alt="" class="Applicants" />
+									<p class="Applicants">10</p>
+								</div>
+								<div class="mini-mode">14 Applicants</div>
+							</td>
+							<td>
+								<div class="button--light-brown">Expored</div>
+							</td>
+							<td>
+								<div class="deatline-info">
+									<p>
+										15 February <br />
+										<span class="mini-mode">12 days left</span>
+									</p>
+									<div class="progressbar">
+										<div style="background-color: red;" class="progresses" data-width="100%"></div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<a href="" class="button--light-success rounded"><i class="far fa-eye"></i></a>
+								<a href="" class="button--light-info rounded"><i class="far fa-file-alt"></i></a>
+								<a href="" class="button--light-primary rounded"><i class="fas fa-share-alt"></i></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section class="footer">
+				<p>Version: 1.5.1</p>
+				<p>Last Updated: Jan 30, 2020</p>
+			</section>
+		</main>
+		<!-- jquery -->
+		<script src="assets/js/jquery/jquery-3.4.1.slim.min.js"></script>
+		<!-- bootstrap -->
+		<script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+		<!-- custom js -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>

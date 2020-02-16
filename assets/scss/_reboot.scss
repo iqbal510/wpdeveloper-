@@ -1,0 +1,24 @@
+@import 'variables';
+
+ul,
+li {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1rem;
+    background-color: $color-secondary;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: $color-secondary;
+    border-radius: 5px;
+}
+a:hover{
+    text-decoration: none;
+}
